@@ -23,7 +23,7 @@
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #000000;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
   font-family: "Montserrat", sans-serif;
@@ -32,21 +32,21 @@
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: #000000;
 }
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: -25px;
+  right: 0px;
   font-size: 60px;
 }
 
-.fa-angle-double-right {
+.fa-bars {
   font-size: 3rem;
 }
 
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
   }
@@ -55,4 +55,4 @@
     top: 15px;
     right: 35px;
   }
-}
+} */
