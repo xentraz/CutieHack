@@ -1,0 +1,52 @@
+.socialMain {
+  max-width: 450px;
+  width: 95%;
+  margin: auto;
+}
+.socialGrid {
+  display: grid;
+  grid-template-areas:
+    "social__header social__header"
+    "social__games social__art"
+    "social__hobbies social__forum"
+    "social__discord social__discord";
+  grid-gap: 8px;
+}
+.socialGrid__header {
+  grid-area: social__header;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px hotpink solid;
+  height: 150px;
+  width: 100%;
+  background-color: #78ffd6;
+  border-radius: 3px;
+}
+.socialGrid__games {
+  grid-area: social__games;
+}
+.socialGrid__art {
+  grid-area: social__art;
+}
+.socialGrid__hobbies {
+  grid-area: social__hobbies;
+}
+.socialGrid__forums {
+  grid-area: social__forum;
+}
+.socialGrid__discord {
+  grid-area: social__discord;
+}
+
+.socialGrid__games,
+.socialGrid__art,
+.socialGrid__hobbies,
+.socialGrid__forums,
+.socialGrid__discord {
+  border: 1px hotpink solid;
+  height: 200px;
+  width: 100%;
+  background-color: #78ffd6;
+  border-radius: 3px;
+}
