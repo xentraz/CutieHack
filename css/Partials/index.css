@@ -117,7 +117,7 @@ main {
   text-transform: uppercase;
 }
 
-.index-footer {
+.footer-container {
   height: 100%;
   width: 100%;
 
@@ -138,13 +138,13 @@ main {
 
   /* background-color: rgb(28, 47, 60); */
 
-  background-color: rgb(238, 230, 237);
+  background-color: rgb(180, 173, 180);
 
   border: none;
   color: rgb(15, 34, 48);
 }
 
-.index-footer h3 {
+.footer-container h3 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
@@ -157,7 +157,7 @@ main {
   text-align: center;
 }
 
-.index-footer p {
+.footer-container p {
   font-family: "Montserrat", sans-serif;
 
   padding-left: 15px;
