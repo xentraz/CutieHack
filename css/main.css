@@ -1,12 +1,12 @@
 /* Style Sheets */
-
 @import "/css/Partials/index.css";
 @import "/css/Partials/navbar.css";
+@import "/css/Partials/social.css";
+@import "/css/Partials/mental.css";
+@import "/css/Partials/footer.css";
 
 /* Generl Styles / Layout */
 @import "/css/styles.css";
-@import "/css/Partials/social.css";
-@import "/css/Partials/mental.css";
 
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Montserrat:wght@400;500&display=swap%27");
