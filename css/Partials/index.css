@@ -1,9 +1,9 @@
 header {
   height: 0px;
-  width: 0px;
+  width: 95%;
 
   padding: 0px;
-  margin: 0px;
+  margin: auto;
 }
 
 main {
@@ -11,7 +11,7 @@ main {
   max-width: 455px;
 
   padding: 0px;
-  margin: 0px;
+  margin: auto;
 }
 
 .hero-image {
@@ -21,14 +21,25 @@ main {
   margin: 0px;
   padding: 0px;
 
-  background-image: url(/img/hero-image.jpg);
+  background-image: url(/img/hero-image.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
   z-index: 1;
 
   /* position: relative; */
 
   border: red 1px solid;
+}
+
+.content-grid {
+  height: 100%;
+  width: 100%;
+
+  padding: 0px;
+  margin: 0px;
+
+  display: grid;
+  grid-template-columns: ;
 }
