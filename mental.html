@@ -29,43 +29,90 @@
           <a href="/mental.html">Mental Health</a>
         </div>
       </div>
-      <span class="menu" onclick="openNav()" id="open_tray"
-        ><i class="fas fa-bars"></i
-      ></span>
+      <span class="menu" onclick="openNav()" id="open_tray">
+        <i class="fas fa-bars"></i>
+      </span>
     </header>
+
     <main class="mentalMain">
-      <div>
+      <div class="mental-overlay">
         <div class="mentalHeader">Mental Health</div>
-        <div class="mentalForm">
-          <label class="mentalLabel" for="mentalEmail"> Email/discord </label>
-          <input
-            type="text"
-            name="mentalEmail"
-            id="mentalEmail"
-            class="mentalInput"
-          />
-
-          <label class="mentalLabel" for="mentalSubject">Subject</label>
-          <select class="mentalSelect" name="mentalSubject" id="mentalSubject">
-            <option value="depression">Depression</option>
-            <option value="moodswings">Moodswings</option>
-            <option value="senseOfDread">Sense of Dread</option>
-            <option value="other">Other</option>
-          </select>
-
-          <label class="mentalLabel" for="mentalText">Message</label>
-          <textarea
-            class="mentalText"
-            name="mentalText"
-            id="mentalText"
-            cols="30"
-            rows="10"
-          ></textarea>
-          <a class="mentalSubmit" href="/index.html">Submit</a>
+        <div class="about-mental-health">
+          <p>We have a team of professional health care workers including therapists, dietisians, personal trainers etc. that can
+          help you get through these difficult times in a more healthy and social manner. Submit the form below to get in contact with one of our proffesionals.</p>
+        </div>
+          <div class="email">
+            <div class="mentalForm">
+              <label class="mentalLabel" for="mentalEmail">Email / Discord Handle</label>
+              <input
+                type="text"
+                name="mentalEmail"
+                id="mentalEmail"
+                class="mentalInput"
+              />
+            </div>
+          </div>
+          <div class="subject">
+            <label class="mentalLabel" for="mentalSubject">Subject</label>
+            <select class="mentalSelect" name="mentalSubject" id="mentalSubject">
+              <option value="depression">Depression</option>
+              <option value="anxiety">Anxiety</option>
+              <option value="eating-disorder">Eating Disorder</option>
+              <option value="PTSD">Post Traumatic Stress Disorder</option>
+              <option value="substance-misuse">Substance Misuse</option>
+              <option value="OCD">Obsessive-Compulsive Disorder</option>
+              <option value="suicide-prevention">Suicide Prevention</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="text">
+            <label class="mentalLabel" for="mentalText">Message</label>
+            <textarea
+              class="mentalText"
+              name="mentalText"
+              id="mentalText"
+              cols="30"
+              rows="10"
+            >
+            </textarea>
+          </div>
+          <div class="submit">
+            <a class="mentalSubmit" href="/index.html">Submit</a>
+          </div>
         </div>
       </div>
     </main>
-    <footer></footer>
+
+
+    <footer>
+      <div class="footer-container">
+        <div class="about-us-info">
+          <h3>About US</h3>
+          <p>
+            We are a small company founded on the idea that isolation shouldn't be something you dread.
+            We want isloation become a more social, physcial and mentally healthy part of our new everyday lives.
+            Beacuse of this we have created a website where you can become part of an amazing community of people
+            there to help each other through isolation.
+            We have a team of professional health care workers including therapists, dietisians, personal trainers etc.
+            that can help you get through these difficult times in a more healthy and social manner.
+          </p>
+        </div>
+        <div class="address">
+          <h3>Address</h3>
+          <p>Social Isolation AS</p>
+          <p>Møllerparken 4</p>
+          <p>0459, Oslo</p>
+        </div>
+        <div class="phone-number">
+          <h3>Contact Us</h3>
+          <p>+47 12345678</p>
+          <p>Contact@socialisolation.com</p>
+        </div>
+        <div class="copyright">
+          <p>&copy; Social Isolation 2020</p>
+        </div>
+      </div>
+    </footer>
     <script src="/js/navbar.js"></script>
   </body>
 </html>

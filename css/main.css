@@ -5,6 +5,10 @@
 @import "/css/Partials/mental.css";
 @import "/css/Partials/footer.css";
 @import "/css/Partials/tips&tricks.css";
+@import "/css/Partials/physical.css";
+@import "/css/Partials/aerobics.css";
+@import "/css/Partials/diet.css";
+@import "/css/Partials/yoga.css";
 
 /* Generl Styles / Layout */
 @import "/css/styles.css";

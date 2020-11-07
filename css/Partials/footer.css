@@ -9,20 +9,10 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.5fr 0.5fr 0.3fr;
 
-  /* background: rgb(39, 59, 74);
-  background: linear-gradient(
-    180deg,
-    rgba(39, 59, 74, 1) 0%,
-    rgb(28, 47, 60) 35%,
-    rgb(127, 148, 191) 100%
-  ); */
-
-  /* background-color: rgb(28, 47, 60); */
-
-  background-color: rgb(180, 173, 180);
+  background-color: rgb(0, 0, 0);
 
   border: none;
-  color: rgb(15, 34, 48);
+  color: rgb(255, 255, 255);
 }
 
 .footer-container h3 {
