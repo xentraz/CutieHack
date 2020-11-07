@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.mentalMain {
+  width: 95%;
+  margin: auto;
+}
+.mentalHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  border-radius: 3px;
+  font-family: "Karla", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.75rem;
+}
+.mentalForm {
+  font-size: 1rem;
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.mentalLabel {
+  display: block;
+  margin-top: 16px;
+}
+.mentalInput {
+  width: 97%;
+  height: 30px;
+}
+.mentalSelect {
+  width: 100%;
+  height: 36px;
+}
+.mentalText {
+  width: 98%;
+  height: 150px;
+}
+
+.mentalSubmit {
+  margin-top: 16px;
+  height: 50px;
+  width: 150px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.mentalSubmit:hover {
+  background-color: blue;
+  color: white;
+}

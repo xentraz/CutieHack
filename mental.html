@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The mental health page of Social Isolation"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <title>Mental Health</title>
+  </head>
+  <body>
+    <header>
+      <div id="sidebar-nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="navigation-overlay">
+          <a href="/social.html">Social</a>
+          <a href="#">Tips & Tricks</a>
+          <a href="#">Physical Health</a>
+          <a href="#">Mental Health</a>
+          <a href="#">Conctact Us</a>
+        </div>
+      </div>
+      <span class="menu" onclick="openNav()" id="open_tray"
+        ><i class="fas fa-bars"></i
+      ></span>
+    </header>
+    <main class="mentalMain">
+      <div>
+        <div class="mentalHeader">Mental Health</div>
+        <div class="mentalForm">
+          <label class="mentalLabel" for="mentalEmail"> Email/discord </label>
+          <input
+            type="text"
+            name="mentalEmail"
+            id="mentalEmail"
+            class="mentalInput"
+          />
+
+          <label class="mentalLabel" for="mentalSubject">Subject</label>
+          <select class="mentalSelect" name="mentalSubject" id="mentalSubject">
+            <option value="depression">Depression</option>
+            <option value="moodswings">Moodswings</option>
+            <option value="senseOfDread">Sense of Dread</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label class="mentalLabel" for="mentalText">Message</label>
+          <textarea
+            class="mentalText"
+            name="mentalText"
+            id="mentalText"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <a class="mentalSubmit" href="/index.html">Submit</a>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="/js/navbar.js"></script>
+  </body>
+</html>
