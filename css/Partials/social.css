@@ -1,8 +1,12 @@
-.socialMain {
-  max-width: 450px;
-  width: 95%;
-  margin: auto;
+.menu {
+  position: relative;
 }
+
+.socialMain {
+  height: 100%;
+  width: 100%;
+}
+
 .socialGrid {
   display: grid;
   grid-template-areas:
