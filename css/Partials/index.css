@@ -33,6 +33,20 @@ main {
   border: red 1px solid;
 }
 
+.image-overlay {
+  height: 100%;
+  width: 100%;
+
+  padding: 0px;
+  margin: 0px;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(0, 0, 0, 0.5)
+  );
+}
+
 .content-grid {
   height: 100%;
   width: 100%;
@@ -41,5 +55,63 @@ main {
   margin: 0px;
 
   display: grid;
-  grid-template-columns: ;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+  grid-row: 1/2;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 0px;
+  margin: 0px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Karla", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  grid-row: 2/3;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 0px;
+  margin: 0px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Karla", sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  grid-row: 3/4;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 0px;
+  margin: 0px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
