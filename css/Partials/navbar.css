@@ -23,7 +23,7 @@
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #000000;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
   font-family: "Montserrat", sans-serif;
@@ -37,7 +37,7 @@
 
 .overlay .closebtn {
   position: absolute;
-  top: -21px;
+  top: -25px;
   right: 0px;
   font-size: 60px;
 }
