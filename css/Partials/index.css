@@ -1,6 +1,6 @@
 header {
   height: 0px;
-  width: 95%;
+  width: 100%;
   position: relative;
   padding: 0px;
   margin: auto;
@@ -14,7 +14,23 @@ main {
   margin: auto;
 }
 
+.content-grid {
+  height: 100%;
+  width: 100%;
+
+  padding: 0px;
+  margin: 0px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  border: none;
+}
+
 .hero-image {
+  grid-row: 1/-1;
+  grid-column: 2/2;
+
   height: 100%;
   width: 100%;
 
@@ -31,6 +47,9 @@ main {
 }
 
 .image-overlay {
+  grid-row: 1/-1;
+  grid-column: 2/2;
+
   height: 100%;
   width: 100%;
 
@@ -38,29 +57,20 @@ main {
   margin: 0px;
 
   background-image: linear-gradient(
-    to top,
+    to bottom,
     rgba(255, 255, 255, 0.5),
     rgba(0, 0, 0, 0.5)
   );
 
   border: none;
-}
-
-.content-grid {
-  height: 100%;
-  width: 100%;
-
-  padding: 0px;
-  margin: 0px;
 
   display: grid;
-  grid-template-columns: auto;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  border: none;
 }
 
 .hero-image h1 {
   grid-row: 1/2;
+  grid-column: 2/2;
 
   height: 100%;
   width: 100%;
@@ -79,8 +89,9 @@ main {
   color: rgb(15, 34, 48);
 }
 
-.hero-image h2 {
+.content-grid h2 {
   grid-row: 2/3;
+  grid-column: 1/1;
 
   height: 100%;
   width: 100%;
@@ -98,8 +109,9 @@ main {
   text-transform: uppercase;
 }
 
-.hero-image h3 {
+.content-grid h3 {
   grid-row: 3/4;
+  grid-column: 1/1;
 
   height: 100%;
   width: 100%;
