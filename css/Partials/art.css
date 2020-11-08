@@ -1,0 +1,14 @@
+.art__list--icon {
+	text-align: center;
+}
+
+.art__list--icon i {
+	margin-top: 50px;
+	font-size: 60px;
+	color: #6d84d1;
+}
+
+.art__list--icon a {
+	text-decoration: none;
+	font-weight: bold;
+}
