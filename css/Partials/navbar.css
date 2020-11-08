@@ -46,6 +46,10 @@
 .fa-bars {
   font-size: 3rem;
 }
+.fa-bars::before {
+  z-index: 10;
+  position: relative;
+}
 
 /* @media screen and (max-height: 450px) {
   .overlay a {

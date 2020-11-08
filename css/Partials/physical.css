@@ -65,16 +65,16 @@
   color: white;
   position: relative;
   top: 30%;
-  left: 90%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: auto;
 }
 
 .diet__title {
   color: white;
   position: relative;
   top: 30%;
-  left: 100%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: auto;
 }
 
 .physical__footer {
