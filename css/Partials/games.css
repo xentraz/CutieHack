@@ -1,0 +1,25 @@
+.games img {
+  width: 100%;
+}
+
+.games__list {
+  margin-top: 30px;
+}
+
+.games__list a {
+  display: block;
+  background-color: #20afa2;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  position: relative;
+}
+
+.games__list i {
+  position: absolute;
+  right: 8px;
+  font-size: 30px;
+}
