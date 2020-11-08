@@ -18,69 +18,70 @@
     <title>Mental Health</title>
   </head>
   <body>
-  <header>
-    <div id="sidebar-nav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="navigation-overlay">
-        <a href="/index.html"><i class="fas fa-home"></i></a>
-        <a href="/social.html">Social</a>
-        <a href="/tips&tricks.html">Tips & Tricks</a>
-        <a href="/physical.html">Physical Health</a>
-        <a href="/mental.html">Mental Health</a>
+    <header>
+      <div id="sidebar-nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="navigation-overlay">
+          <a href="/index.html"><i class="fas fa-home"></i></a>
+          <a href="/social.html">Social</a>
+          <a href="/tips&tricks.html">Tips & Tricks</a>
+          <a href="physical.html">Physical Health</a>
+          <a href="/mental.html">Mental Health</a>
+        </div>
       </div>
-    </div>
-    <span class="menu" onclick="openNav()" id="open_tray"><i class="fas fa-bars"></i></span>
-  </header>
+      <span class="menu" onclick="openNav()" id="open_tray"
+        ><i class="fas fa-bars"></i
+      ></span>
+    </header>
 
     <main class="mentalMain">
-      <div class="mental-overlay">
-        <div class="mentalHeader"><h1>Mental Health</h1></div>
-        <div class="about-mental-health">
-          <p>We have a team of professional health care workers including therapists, dietisians, personal trainers etc. that can
-          help you get through these difficult times in a more healthy and social manner. Submit the form below to get in contact with one of our proffesionals.</p>
-        </div>
-          <div class="email">
-            <div class="mentalForm">
-              <label class="mentalLabel" for="mentalEmail">Email / Discord Handle</label>
-              <input
-                type="text"
-                name="mentalEmail"
-                id="mentalEmail"
-                class="mentalInput"
-              />
-            </div>
-          </div>
-          <div class="subject">
-            <label class="mentalLabel" for="mentalSubject">Subject</label>
-            <select class="mentalSelect" name="mentalSubject" id="mentalSubject">
-              <option value="depression">Depression</option>
-              <option value="anxiety">Anxiety</option>
-              <option value="eating-disorder">Eating Disorder</option>
-              <option value="PTSD">Post Traumatic Stress Disorder</option>
-              <option value="substance-misuse">Substance Misuse</option>
-              <option value="OCD">Obsessive-Compulsive Disorder</option>
-              <option value="suicide-prevention">Suicide Prevention</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div class="text">
-            <label class="mentalLabel" for="mentalText">Message</label>
-            <textarea
-              class="mentalText"
-              name="mentalText"
-              id="mentalText"
-              cols="30"
-              rows="10"
-            >
-            </textarea>
-          </div>
-          <div class="submit">
-            <a class="mentalSubmit" href="/index.html">Submit</a>
-          </div>
-        </div>
+      <div class="socialGrid__header">
+        <h1>Mental Health</h1>
+      </div>
+      <div class="games">
+        <img src="./img/mental_health.jpg" alt="Mental Health" />
+      </div>
+      <div class="about-mental-health">
+        <p>
+          We have a team of professional health care workers including
+          therapists, dietisians, personal trainers etc. that can help you get
+          through these difficult times in a more healthy and social manner.
+          Submit the form below to get in contact with one of our proffesionals.
+        </p>
+      </div>
+      <div class="mental__form">
+        <h2>Please fill out this form for a psychologist to get back to you</h2>
+        <form>
+          <input
+            type="text"
+            name="name"
+            placeholder="Please enter your name.."
+          />
+          <input
+            type="text"
+            name="mentalEmail"
+            placeholder="Please enter your email address.."
+          />
+          <select class="mentalSelect" name="mentalSubject" id="mentalSubject">
+            <option value="depression">What issues are you facing</option>
+            <option value="depression">Depression</option>
+            <option value="anxiety">Anxiety</option>
+            <option value="eating-disorder">Eating Disorder</option>
+            <option value="PTSD">Post Traumatic Stress Disorder</option>
+            <option value="substance-misuse">Substance Misuse</option>
+            <option value="OCD">Obsessive-Compulsive Disorder</option>
+            <option value="suicide-prevention">Suicide Prevention</option>
+            <option value="other">Other</option>
+          </select>
+          <textarea name="mentalText" id="mentalText" cols="30" rows="10">
+            Tell Us a little more
+					</textarea
+          >
+        </form>
       </div>
     </main>
-
 
     <footer>
       <div class="footer-container">
