@@ -5,12 +5,13 @@ body {
 
   margin: 0px;
   padding: 0px;
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p,
 span,
 a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {

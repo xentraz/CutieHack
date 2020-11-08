@@ -38,3 +38,7 @@
 .aerobics__header--subtitle {
   margin-bottom: 7%;
 }
+
+.source {
+  cursor: pointer;
+}
