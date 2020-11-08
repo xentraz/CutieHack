@@ -83,7 +83,7 @@ main {
   padding: 0px;
 
   font-family: "Karla", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 10px;
   text-transform: uppercase;
   color: rgb(15, 34, 48);
@@ -115,7 +115,7 @@ main {
   padding: 0px;
 
   font-family: "Karla", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 10px;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
@@ -144,7 +144,7 @@ main {
   padding: 0px;
 
   font-family: "Karla", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
   color: rgb(15, 34, 48);
 
@@ -174,7 +174,7 @@ main {
   padding: 0px;
 
   font-family: "Karla", sans-serif;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
 
@@ -199,7 +199,7 @@ main {
 
 .about-us p {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 
   margin: 0px;
   padding: 15px;
