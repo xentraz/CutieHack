@@ -74,6 +74,12 @@
   margin: auto;
 }
 
+.aerobics__title > h2,
+.yoga__title > h2,
+.diet__title > h2 {
+  font-size: 3rem;
+}
+
 .diet__title {
   color: white;
   position: relative;
