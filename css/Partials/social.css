@@ -95,3 +95,14 @@
   text-align: center;
   top: 40%;
 }
+.social__items a {
+  color: white;
+}
+
+.social__items a:hover {
+  color: white;
+}
+
+.social__items a:visited {
+  color: white;
+}
