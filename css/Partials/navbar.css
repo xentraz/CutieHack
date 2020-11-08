@@ -43,21 +43,17 @@
   font-size: 60px;
 }
 
-.fa-bars {
-  font-size: 3rem;
+.menu {
+  position: relative;
+  left: 10px;
+  top: 10px;
 }
+
+.fa-bars {
+  font-size: 2rem;
+}
+
 .fa-bars::before {
   z-index: 10;
   position: relative;
 }
-
-/* @media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-} */
