@@ -43,6 +43,12 @@
   font-size: 60px;
 }
 
+.menu {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
 .fa-bars {
   font-size: 2rem;
 }
