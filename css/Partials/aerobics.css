@@ -29,8 +29,8 @@
 .diet__header--title {
   position: relative;
   top: 80%;
-  left: 90%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+
   margin: auto;
   color: white;
 }
